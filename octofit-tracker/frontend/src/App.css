@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  background: linear-gradient(120deg, #e7f1ff 0%, #e6f7ec 100%);
+  min-height: 100vh;
+}
+
+body, html, #root {
+  min-height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e3354;
+  background: #f8f9fa;
+}
+
+nav.navbar {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #b6d2ff;
+}
+
+.octofit-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: white;
+  padding: 4px;
+}
+
+.card {
+  border-radius: 0.75rem;
+  border: 1px solid #d3e8ff;
+  background: #ffffff;
+}
+
+.card-header {
+  background: #f4f8ff;
+  border-bottom: 1px solid #c6dcf8;
+}
+
+.table thead th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #3b5998;
+  background: #dfe8ff;
+}
+
+.table tbody tr:hover {
+  background: #eef4ff;
+}
+
+.btn-primary {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.btn-primary:hover {
+  background-color: #0a53be;
+  border-color: #094fb0;
+}
+
+.btn-success {
+  background-color: #2f9e44;
+  border-color: #2b8a3e;
+}
+
+.btn-link {
+  color: #0d6efd;
+}
+
+a.nav-link {
+  color: #ffffff;
+}
+
+a.nav-link:hover {
+  color: #d1e5ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0b5ed7;
+}
+
+.App-link {
+  color: #0d6efd;
+}
+
+.modal-backdrop.show {
+  opacity: 0.4;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
